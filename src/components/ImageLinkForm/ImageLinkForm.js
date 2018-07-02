@@ -10,7 +10,7 @@ const ImageLinkForm = ({ onInputChange, onSubmit }) => {
             <div className="center form">
                 <input 
                     className="f6 f5-l bn fl black-80 bg-white pa3 lh-solid w-100 w-75-m w-80-l br2-ns br--left-ns" 
-                    placeholder="Image URL" 
+                    placeholder="Paste a URL of an image with a face" 
                     type="text" 
                     onChange={onInputChange} 
                     name="" 
